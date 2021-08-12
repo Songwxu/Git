@@ -90,16 +90,19 @@ $ git branch
 $ git branch -r
 # 新建一个分支，但依然停留在当前分支
 $ git branch [branch-name]
+# 切换分支
+$ git checkout [branch-name]
 # 新建一个分支，并切换到该分支
-$ git checkout -b [branch]
+$ git checkout -b [branch-name]
 # 将分支推到远程仓库
 $ git push origin [branch-name]
 # 合并指定分支到当前分支
-$ git merge [branch]
+$ git merge [branch-name]
 # 删除分支
 $ git branch -d [branch-name]
 # 删除远程分支
-$ git push origin --delete [branch-name]$ git branch -dr [remote/branch]
+$ git push origin --delete [branch-name]
+$ git branch -dr [delete remote branch]
 ```
 
 
@@ -124,6 +127,6 @@ $ git push origin --delete [branch-name]$ git branch -dr [remote/branch]
         repositories：仓库就像项目的文件夹。 项目的仓库包含项目的所有文件，并存储每个文件的修订记录。 您也可以在仓库中讨论并管理项目的工作。您可以个人拥有仓库，也可以与组织中的其他人共享仓库的所有权。
     
         projects：GitHub 上的项目板帮助您组织工作和排列工作的优先级。 您可以为特定功能工作、全面的路线图甚至发布检查列表创建项目板。 通过项目板可以灵活地创建适合需求的自定义工作流程。项目板包括议题、拉取请求和注释，在选择的列中分类为卡片。 您可以拖放或使用键盘快捷键对列中的卡片重新排序，在不同列之间移动卡片，以及更改列的顺序。 
-                                                  
+
 
 ​	                                                                                                                      **To be continued ...**
