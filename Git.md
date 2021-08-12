@@ -1,0 +1,34 @@
+**分布式版本控制 	Git**
+
+每个人都拥有全部的代码！安全隐患！
+
+所有版本信息仓库全部同步到本地的每个用户，这样就可以在本地查看所有版本历史，可以离线在本地提交，只需在连网时push到相应的服务器或其他用户那里。由于每个用户那里保存的都是所有的版本数据，只要有一个用户的设备没有问题就可以恢复所有的数据，但这增加了本地存储空间的占用。
+
+不会因为服务器损坏或者网络问题，造成不能工作的情况！
+
+Git是免费、开源的，最初Git是为辅助 Linux 内核开发的，来替代 BitKeeper！**是目前世界上最先进的分布式版本控制系统。**
+
+
+
+![image-20210812170404639](/home/song/.config/Typora/typora-user-images/image-20210812170404639.png)
+
+- Workspace：工作区，就是你平时存放项目代码的地方
+
+- Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表的信息
+
+- Repository：仓库区（或本地仓库），就是安全存放数据的位置，这里面有你提交到所有版本的数据。其中HEAD指向最新放入仓库的版本
+
+- Remote Directory：远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换
+
+  
+
+本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0icz6X2aibIgUWzHxtwX8kicPCKpDrsiaPzZk04OlI2bzlydzicBuXTJvLEQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+- Directory：使用Git管理的一个目录，也就是一个仓库，包含我们的工作空间和Git的管理空间。
+- WorkSpace：需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间。
+- .git：存放Git管理信息的目录，初始化仓库的时候自动创建。
+- Index/Stage：暂存区，或者叫待提交更新区，在提交进入repo之前，我们可以把所有的更新放在暂存区。
+- Local Repo：本地仓库，一个存放在本地的版本库；HEAD会只是当前的开发分支（branch）。
+- Stash：隐藏，是一个工作状态保存栈，用于保存/恢复WorkSpace中的临时状态。
