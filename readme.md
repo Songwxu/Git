@@ -1,2 +1,1 @@
-Only for test!
-
+只是平时学习Git用于记录。
