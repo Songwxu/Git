@@ -24,7 +24,7 @@ Git是免费、开源的，最初Git是为辅助 Linux 内核开发的，来替�
 
 本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0icz6X2aibIgUWzHxtwX8kicPCKpDrsiaPzZk04OlI2bzlydzicBuXTJvLEQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://github.com/Songwxu/Git/blob/main/68747470733a2f2f6d6d62697a2e717069632e636e2f6d6d62697a5f706e672f754a4441554b724743374b737538556c4954774d6c6258336b4d47745a39703069637a365832616962496755577a4878747758386b696350434b70.webp)
 
 - Directory：使用Git管理的一个目录，也就是一个仓库，包含我们的工作空间和Git的管理空间。
 - WorkSpace：需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间。
