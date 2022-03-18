@@ -4,13 +4,11 @@
 
 每个人都拥有全部的代码！安全隐患！
 
-所有版本信息仓库全部同步到本地的每个用户，这样就可以在本地查看所有版本历史，可以离线在本地提交，只需在连网时push到相应的服务器或其他用户那里。由于每个用户那里保存的都是所有的版本数据，只要有一个用户的设备没有问题就可以恢复所有的数据，但这增加了本地存储空间的占用。
+所有版本信息仓库全部同步到本地的每个用户，这样就可以在本地查看所有版本历史，可以离线在本地提交，只需在连网时push到相应的服务器或其他用户那里。由于每个用户那里保存的都是所有的版本数据，只要有一个用户的设备没有问题就可以恢复所有的数据，但这增加了本地存储空间的占用。不会因为服务器损坏或者网络问题，造成不能工作的情况！
+
 ![image-1](https://raw.githubusercontent.com/Songwxu/Git/main/640%20(1).jpg?token=GHSAT0AAAAAABSRX2RQAJCG4S6UH3KCN7MKYRUMRWA)
-不会因为服务器损坏或者网络问题，造成不能工作的情况！
 
 Git是免费、开源的，最初Git是为辅助 Linux 内核开发的，来替代 BitKeeper！**是目前世界上最先进的分布式版本控制系统。**
-
-
 
 ![image-2](https://raw.githubusercontent.com/Songwxu/Git/main/640.jpg?token=GHSAT0AAAAAABSRX2RRGWQ3CQ3AMH2OZXCUYRUMTIA)
 
@@ -22,7 +20,7 @@ Git是免费、开源的，最初Git是为辅助 Linux 内核开发的，来替�
 
 - Remote Directory：远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换
 
-  ![image-3](https://raw.githubusercontent.com/Songwxu/Git/main/640.png?token=GHSAT0AAAAAABSRX2RRHEMDT5MXSVST6BTSYRUMSSQ)
+![image-3](https://raw.githubusercontent.com/Songwxu/Git/main/640.png?token=GHSAT0AAAAAABSRX2RRHEMDT5MXSVST6BTSYRUMSSQ)
 
 本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
 
